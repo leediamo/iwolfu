@@ -1,0 +1,12 @@
+:root {
+    --color01: #3B354E;
+    --color02: #b3a5c4;
+    --color03: #dde4ee;
+    --color04: #f6f4eb;
+    --color05: #D34A2e;
+}
+
+h1 {
+    font-size: 30pt;
+    color: var(--color01);
+}
