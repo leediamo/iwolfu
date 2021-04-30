@@ -4,9 +4,23 @@
     --color03: #dde4ee;
     --color04: #f6f4eb;
     --color05: #D34A2e;
-}
+};
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 0.5fr 4fr;
+    gap: 5px 5px;
+    grid-template-areas:
+      "."
+      ".";
+  }
 
 h1 {
     font-size: 30pt;
     color: var(--color01);
-}
+};
+
+nav {
+ align-items: center;
+};
