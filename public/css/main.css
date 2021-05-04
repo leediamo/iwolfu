@@ -1,0 +1,51 @@
+:root {
+    --color01: #3B354E;
+    --color02: #b3a5c4;
+    --color03: #dde4ee;
+    --color04: #f6f4eb;
+    --color05: #D34A2e;
+}
+
+.IwolfU {
+    font-size: 50pt;
+    color: var(--color04);
+    border-width: var(--color04);
+    border-color: var(--color04);
+    text-align: center;
+}
+.findyourpetlove{
+    text-align: center;
+}
+nav {
+ align-items: center;
+}
+
+.topGradient {
+    background-image: linear-gradient(to bottom, var(--color01),var(--color02));
+    padding: 50px;
+    margin: 25px, 20px;
+}
+
+.card-loader {
+    align-items: center;
+    padding: 15rem;
+    background-color: var(--color03);
+    border-radius: 25px;
+    margin: 1rem;
+    text-align: center;
+}
+
+.inner-card {
+    
+    padding: 12rem;
+    background-color: var(--color04);
+    border-radius: 20px;
+
+}
+
+footer {
+    background-image: linear-gradient(to bottom, var(--color02),var(--color01));
+    padding: 50px;
+    font-size: 12pt;
+    text-align: center;
+}
