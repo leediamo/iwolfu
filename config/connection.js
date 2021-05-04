@@ -2,7 +2,7 @@ const Sequelize = require('sequelize');
 require('dotenv').config();
 
 let sequelize;
-
+// JAWS DB
 if (process.env.ag) {
   sequelize = new Sequelize(process.env.ah);
 } else {

@@ -1,22 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public/css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>iwolfu</title>
-</head>
-<body>
-    <!--not real links-->
-    <nav> 
-        <a href="/find">ifindu</a>
-        <a href="/favorites">imatchu</a>
-        <a href="/messages">imessageu</a>
-        <a href="/profile">Profile</a>
-    </nav>
-    <h1>iwolfu</h1>
-    <p>Hello Wold</p>
-    <script src="../public/js/main.js" type="text/javascript"></script>
-</body>
+  </head>
+  {{Header}}
+  <body style="background-color: #b3a5c4">
+    <header class="topGradient">
+      <h1 class="IwolfU">iwolfU</h1>
+      <h3 class="findyourpetlove">Find your PetLove</h3>
+    </header>
+    <!-- <navbar>
+      <a href="/find">ifindu</a>
+      <a href="/favorites">imatchu</a>
+      <a href="/messages">imessageu</a>
+      <a href="/profile">Profile</a>
+    </navbar> -->
+
+    {{CardInfo}}
+    <div class="card-loader">
+      <h3>Here's the Card</h3>
+      <div class="inner-card">
+      </div>
+      <button type="button" class="btn btn-success">Absolutely</button>
+      <button type="button" class="btn btn-danger">Hard Pass</button>
+    </div>
+    {{{footer}}}
+    
+  </body>
+  <footer>
+    <p>Be the person your dog thinks you are</p>
+  </footer>
+  <script src="./js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </html>
