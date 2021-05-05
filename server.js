@@ -5,23 +5,23 @@ const path = require('path')
 const exphbs = require('express-handlebars');
 const helpers = require('./utils/helpers');
 
+//for mySQL
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 //defines app
 const app = express();
 
-//staticly hosting our public folder/files(css & javascript)
+//staticly hosting our public folder/files(html, css & javascript)
 app.use(express.static(path.join(__dirname, 'public')));
+
 //where app is hosted
 const PORT = process.env.PORT || 3000;
 
-//go to routes folder index.js
-// const routes = require("./routes")
-// app.use(routes);
+//go to controllers folder index.js
+const router = require('./controllers');
+app.use(router);
 
-const control = require('./controllers');
-app.use(control);
 const hbs = exphbs.create({ helpers });
 const sess = {
   secret: 'Super secret secret',
