@@ -11,4 +11,13 @@ router.get("/", (req, res) => {
     res.render('homepage', {layout: 'main'});
 });
 
+// router.get("/account", (req, res) =>{
+//     res.render('account');
+// });
+
+router.get("/login", (req, res) =>{
+    res.render('login');
+});
+
+
 module.exports = router;

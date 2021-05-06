@@ -22,6 +22,11 @@ const PORT = process.env.PORT || 3000;
 const router = require('./controllers');
 app.use(router);
 
+router.get("/", async (req,res) => {
+  console.log('hit home route')
+  res.render('homepage')
+})
+
 const hbs = exphbs.create({ helpers });
 const sess = {
   secret: 'Super secret secret',
