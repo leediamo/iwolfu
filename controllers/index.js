@@ -1,8 +1,9 @@
 const router = require('express').Router();
 const apiRoutes = require('./api');
 const path = require('path');
-
-
+const DogBreed = ('https://dog.ceo/api/breeds/list/all');
+const { get } = require('./api');
+const fetch = require("node-fetch");
 router.use('/api', apiRoutes);
 
 router.get("/", (req, res) => {
@@ -15,9 +16,16 @@ router.get("/", (req, res) => {
 //     res.render('account');
 // });
 
+fetch(DogBreed)
+.then(response => response.json())
+.then(data => console.log(data));
+
 router.get("/login", (req, res) =>{
     res.render('login');
 });
 
 
 module.exports = router;
+
+
+fetch('http://example.com/movies.json')
