@@ -26,6 +26,9 @@
 // const AnimalDisplay = document.getElementById('petdisplay')
 // AnimalDisplay.setAttribute(DogBreed)
 
+function refreshPage(){
+  window.location.reload();
+} 
 const imageRandom = document.getElementById("imageRandom");
 
 function getRandomImage(){
