@@ -18,6 +18,13 @@
 }
 nav {
  align-items: center;
+ text-decoration: none;
+}
+nav a {
+   color:var(--color01);
+   font-size: 18px;
+   margin: 2px 5px 2px 5px;
+   padding: 5px
 }
 
 .topGradient {
