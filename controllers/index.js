@@ -22,8 +22,8 @@ router.get("/profile", (req, res) =>{
 res.render('profile');
 });
 
-router.get("/favoriteDogs", (req, res) =>{
-    res.render('favoriteDogs');
+router.get("/favorite", (req, res) =>{
+    res.render('favorite');
     });
 
 
