@@ -10,13 +10,18 @@
     />
     <link rel="stylesheet" href="./css/main.css" />
     <title>iwolfu</title>
-  </head>
-  {{{login}}}
-  {{Header}}
+    </head>
+    <nav>
+      <ul>
+      <a href="login.handlebars">login</a>
+      <a href="/favoriteDogs">favorites</a>
+      <a href="profile.handlebars">Profile</a>
+      <a href="homepage.handlebars">home</a>
+      </ul>
+    </nav>
   <body style="background-color: #b3a5c4">
     <header class="topGradient">
       <h1 class="IwolfU">iwolfU</h1> 
-      {{{profile}}}
     </header>
     <div class="card-loader">
       <h3 class="findyourpetlove">Find your PetLove</h3>
@@ -28,9 +33,6 @@
       <button type="button" onClick="delete()"class="btn btn-danger">destroy</button>
     </div>
   </body>
-  <script src="js/index.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </html>
 
 {{!-- search favorites --}}
