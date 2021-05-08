@@ -2,7 +2,6 @@ function refreshPage(){
   window.location.reload();
 } 
 const imageRandom = document.getElementById("imageRandom");
-
 function getRandomImage(){
   const randomImageApiUrl = "api/randomdog";
   fetch(randomImageApiUrl)
@@ -25,3 +24,23 @@ function getRandomImage(){
 getRandomImage();
 
 // JSON object appending information:
+const randomDogName = document.getElementById("DogName");
+function displayRandomDogName(){
+  const randomDogNameAPI = "api/randomdog";
+  fetch(randomDogNameAPI)
+  .then(function(response){
+    return response.json();
+  })
+  .then(function(json){
+    var dogBreed = json[0].breeds[0].name;
+    randomDogName.textContent = dogBreed;
+    console.log(dogBreed)
+    console.log(json);
+  })
+  .catch(function(error){
+    console.log(error);
+  });
+}
+displayRandomDogName();
+
+
