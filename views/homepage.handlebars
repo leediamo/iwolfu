@@ -8,10 +8,18 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/main.css" />
     <title>iwolfu</title>
+    <nav>
+      <ul>
+      <a href="login.handlebars">login</a>
+      <a href="/favoriteDogs">favorites</a>
+      <a href="profile.handlebars">Profile</a>
+      <a href="homepage.handlebars">home</a>
+      </ul>
+    </nav>
   </head>
+  {{{login}}}
   {{Header}}
   <body style="background-color: #b3a5c4">
     <header class="topGradient">
@@ -26,15 +34,16 @@
       </div>
       <button type="button" onClick="refreshPage()"class="btn btn-success" id="NoDeal">Absolutely</button>
       <button type="button" onClick="refreshPage()"class="btn btn-danger">Hard Pass</button>
+      <button type="button" onClick="delete()"class="btn btn-danger">destroy</button>
     </div>
     {{{footer}}}
   </body>
   <footer>
-    <p>Be the person your dog thinks you are</p>
+    <h3>Be the person your dog thinks you are</h3>
   </footer>
-  <script src="js/main.js"></script>
   <script src="js/index.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </html>
 
+{{!-- search favorites --}}
