@@ -1,7 +1,8 @@
 # iwolfu
+IWolfU is an app for future pet owners to find new furry friends. The adoption app allows users to set up a profile, view dog profiles; as well as add and delete favorited profiles.
 
-
-![project01_01](image link)
+![hompage](file:///Users/diamondlee/code/Homework/iwolfu/public/assets/Screen%20Shot%202021-05-08%20at%2012.05.54%20AM.png)
+![login](file:///Users/diamondlee/code/Homework/iwolfu/public/assets/Screen%20Shot%202021-05-08%20at%2012.19.17%20AM.png)
 
 
 ## Project Acceptance Criteria
@@ -49,10 +50,13 @@
  
 
 ## Technology Utilized
-This application was built using HTML, CSS, JavaScript, Node.js, MySQL, NPM, Handlebars, Github and Heroku . We chose to utilize the CSS framework [Bootstrap](https://getbootstrap.com/). For the REST Api we used [TheDogApi](https://docs.thedogapi.com/). Our app is hosted on [Github](https://github.com/leediamo/iwolfu) and [Heroku](https://iwolfu.herokuapp.com/). We sourced the map from the API [Open Street](https://www.openstreetmap.org/#map=6/38.891/-97.141). We used [Leaflet Interactive Map Guide](https://leafletjs.com/) for the markers on the map.
+This application was built using HTML, CSS, JavaScript, Node.js, MySQL, NPM, Handlebars, Github and Heroku . We chose to utilize the CSS framework [Bootstrap](https://getbootstrap.com/). For the REST Api we used [TheDogApi](https://docs.thedogapi.com/). Our app is hosted on [Github](https://github.com/leediamo/iwolfu) and [Heroku](https://iwolfu.herokuapp.com/).
 
 ## Future Developement
- 
+ In the future iwolfu will be adding more features. This includes  using the Petfinder Api. Adding this Api will allow users to access more information about the dogs ranging from location, to a specific breed. With access to the dogs location a MapApi will be installed as well. 
+
+Our users will be able to upgrade their profiles by adding pictures, a description, social media links, and directly message others. Lastly, iwoulfu will also upgrade the carousel to display more information and become more interactive. 
+
 
 ## Live View
 
