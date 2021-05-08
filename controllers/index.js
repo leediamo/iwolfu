@@ -12,7 +12,7 @@ router.use('/api', UserRoutes);
 
 router.get("/homepage", (req, res) => {
     console.log("We in dis!!");
-    res.sendFile(path.join(__dirname, "../public/index.html"));
+    //res.sendFile(path.join(__dirname, "../public/index.html"));
     res.render('homepage', {layout: 'main'});
 });
 
