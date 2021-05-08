@@ -4,7 +4,11 @@ const path = require('path');
 const DogBreed = ('https://api.thedogapi.com/v1/images/search');
 const { get } = require('./api');
 const fetch = require("node-fetch");
-router.use('/api', apiRoutes);
+const UserRoutes = require('./api/userRoutes');
+
+
+
+router.use('/api', UserRoutes);
 
 router.get("/homepage", (req, res) => {
     console.log("We in dis!!");
