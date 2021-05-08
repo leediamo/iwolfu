@@ -16,19 +16,19 @@ router.post('/', async (req, res) => {
 
 router.delete('/:id', async (req, res) => {
   try {
-    const projectData = await Project.destroy({
+    const dogData = await Project.destroy({
       where: {
         id: req.params.id,
         user_id: req.session.user_id,
       },
     });
 
-    if (!projectData) {
-      res.status(404).json({ message: 'No project found with this id!' });
+    if (!dogData) {
+      res.status(404).json({ message: 'No dog found here!' });
       return;
     }
 
-    res.status(200).json(projectData);
+    res.status(200).json(dogData);
   } catch (err) {
     res.status(500).json(err);
   }
