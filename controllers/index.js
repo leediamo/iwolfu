@@ -1,5 +1,5 @@
 const router = require('express').Router();
-//const apiRoutes = require('./api');
+const apiRoutes = require('./api');
 const path = require('path');
 const DogBreed = ('https://api.thedogapi.com/v1/images/search');
 const { get } = require('./api');
