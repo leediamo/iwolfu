@@ -1,4 +1,4 @@
-# iwolfu
+# IWolfuU
 IWolfU is an app for future pet owners to find new furry friends. The adoption app allows users to set up a profile, view dog profiles; as well as add and delete favorited profiles.
 
 <img width="325" alt="Screen Shot 2021-05-08 at 12 39 12 AM" src="https://user-images.githubusercontent.com/75379703/117527348-4a84b400-af99-11eb-961d-9a97c9fcd689.png">
@@ -53,7 +53,7 @@ IWolfU is an app for future pet owners to find new furry friends. The adoption a
 This application was built using HTML, CSS, JavaScript, Node.js, MySQL, NPM, Handlebars, Github and Heroku . We chose to utilize the CSS framework [Bootstrap](https://getbootstrap.com/). For the REST Api we used [TheDogApi](https://docs.thedogapi.com/). Our app is hosted on [Github](https://github.com/leediamo/iwolfu) and [Heroku](https://iwolfu.herokuapp.com/).
 
 ## Future Developement
- In the future iwolfu will be adding more features. This includes  using the Petfinder Api. Adding this Api will allow users to access more information about the dogs ranging from location, to a specific breed. With access to the dogs location a MapApi will be installed as well. 
+ In the future IWolfuU will be adding more features. This includes  using the Petfinder Api. Adding this Api will allow users to access more information about the dogs ranging from location, to a specific breed. With access to the dogs location a MapApi will be installed as well. 
 
 Our users will be able to upgrade their profiles by adding pictures, a description, social media links, and directly message others. Lastly, iwoulfu will also upgrade the carousel to display more information and become more interactive. 
 
