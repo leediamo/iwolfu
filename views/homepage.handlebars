@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="./css/main.css" />
     <title>iwolfu</title>
+    </head>
     <nav>
       <ul>
       <a href="login.handlebars">login</a>
@@ -18,32 +19,20 @@
       <a href="homepage.handlebars">home</a>
       </ul>
     </nav>
-  </head>
-  {{{login}}}
-  {{Header}}
   <body style="background-color: #b3a5c4">
     <header class="topGradient">
       <h1 class="IwolfU">iwolfU</h1> 
-      {{{profile}}}
     </header>
-    {{CardInfo}}
     <div class="card-loader">
       <h3 class="findyourpetlove">Find your PetLove</h3>
       <div class="inner-card" id="petdisplay">
         <img id="imageRandom"/>
       </div>
-      <button type="button" onClick="refreshPage()"class="btn btn-success" id="NoDeal">Absolutely</button>
+      <button type="button" onClick="refreshPage()"class="btn btn-success">Absolutely</button>
       <button type="button" onClick="refreshPage()"class="btn btn-danger">Hard Pass</button>
       <button type="button" onClick="delete()"class="btn btn-danger">destroy</button>
     </div>
-    {{{footer}}}
   </body>
-  <footer>
-    <h3>Be the person your dog thinks you are</h3>
-  </footer>
-  <script src="js/index.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </html>
 
 {{!-- search favorites --}}
