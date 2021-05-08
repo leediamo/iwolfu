@@ -1,8 +1,8 @@
 # iwolfu
 IWolfU is an app for future pet owners to find new furry friends. The adoption app allows users to set up a profile, view dog profiles; as well as add and delete favorited profiles.
 
-![hompage]<img width="899" alt="Screen Shot 2021-05-08 at 12 39 12 AM" src="https://user-images.githubusercontent.com/75379703/117527348-4a84b400-af99-11eb-961d-9a97c9fcd689.png">
-![login](file:///Users/diamondlee/code/Homework/iwolfu/public/assets/Screen%20Shot%202021-05-08%20at%2012.19.17%20AM.png)
+<img width="899" alt="Screen Shot 2021-05-08 at 12 39 12 AM" src="https://user-images.githubusercontent.com/75379703/117527348-4a84b400-af99-11eb-961d-9a97c9fcd689.png">
+<img width="326" alt="Screen Shot 2021-05-08 at 12 19 17 AM" src="https://user-images.githubusercontent.com/75379703/117527362-74d67180-af99-11eb-96e8-8a88bc7f5a4b.png">
 
 
 ## Project Acceptance Criteria
